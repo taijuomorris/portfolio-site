@@ -15,6 +15,20 @@ body {
     color: var(--text-color);
 }
 
+.aboutbutton:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 5px #a8d5ba);
+}
+
+.workbutton:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 5px #a8d5ba);
+}
+
+.contactbutton:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 5px #a8d5ba);
+}
 
 .modal {
     display: none; /* Hidden by default */
