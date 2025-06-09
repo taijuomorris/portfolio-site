@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tai's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    
+    
+
+</head>
+
+<body>
+    <section>
+        <header class="hero">
+            <h1>Hello, I'm Tai!</h1>
+            Electronics and Math student | Aspiring Engineer <br><br>
+            <br><br>
+            <button onclick="openModal('aboutModal')" class="aboutbutton"> <img src="WebsiteAboutButton.png" width="60" height="60"></button>
+            &nbsp; &nbsp;
+            <button onclick="openModal('workModal')" class="workbutton"><img src="WebsiteWorkButton.png" width="60" height="60"></button>
+            &nbsp; &nbsp;
+            <button onclick="openModal('contactModal')" class="workbutton"><img src="WebsiteContactButton.png" width="60" height="60"></button>
+
+        </header>
+    </section>
+    
+   
+   
+ 
+
+
+  
+    
+
+    <div id="aboutModal" class="modal">
+        <div class="modal-aboutcontent">
+            <span class="closebtn" onclick="closeModal('aboutModal')">&times;</span>
+            <h2>About Me</h2>
+            <p>
+                I'm Taijuo, a university student passionate about electronics
+                and creative technology. I love blending code with real-world impact,
+                whether it's building circuits, teaching robotics, or exploring AI in networking.
+            </p>
+        </div>
+    </div>
+
+    <div id="workModal" class="modal">
+        <div class="modal-workcontent">
+            <span class="closebtn" onclick="closeModal('workModal')">&times;</span>
+            <h2>Work</h2>
+            <p>
+                I teach robotics, work on hands-on circuit projects,
+                and use simulation software to explore and improve my designs. <br /> <br />
+
+             
+             <h3>Projects</h3>
+             <hr />  <br />
+                <b> AI-Optimised Offline Mesh Communication System</b><br /> <br />
+                A smart offline messaging system using ESP8266s and AI to choose the
+                best path for sending messages based on signal quality, no internet needed.
+            </p>
+
+        </div>
+    </div>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-contactcontent">
+            <span class="closebtn" onclick="closeModal('contactModal')">&times;</span>
+            <h2>Contact Info</h2>
+            <p>
+                Please direct messages to my email. <br />
+                Email me at: <a href="mailto:taijuo.morris@gmail.com">taijuo.morris@gmail.com</a>
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
